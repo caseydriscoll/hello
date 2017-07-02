@@ -1,2 +1,5 @@
+def sayname( name ):
+    print( "Hello, " + name + "!" )
+
 for x in range(0, 5):
-    print("Hello, Heather and no, not CASEY!!!!")
+    sayname( "Heather" )
